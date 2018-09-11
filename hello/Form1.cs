@@ -16,5 +16,16 @@ namespace hello
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello " + TxtBxName.Text);
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+          
+        }
     }
 }
+ 
