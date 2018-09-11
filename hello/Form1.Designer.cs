@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.TxtBxName = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBxName1 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -51,11 +52,19 @@
             this.TxtBxName.TabIndex = 1;
             this.TxtBxName.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
+            // TxtBxName1
+            // 
+            this.TxtBxName1.Location = new System.Drawing.Point(229, 107);
+            this.TxtBxName1.Name = "TxtBxName1";
+            this.TxtBxName1.Size = new System.Drawing.Size(100, 20);
+            this.TxtBxName1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TxtBxName1);
             this.Controls.Add(this.TxtBxName);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -69,6 +78,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MaskedTextBox TxtBxName;
+        private System.Windows.Forms.MaskedTextBox TxtBxName1;
     }
 }
 

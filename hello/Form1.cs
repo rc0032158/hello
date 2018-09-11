@@ -19,7 +19,7 @@ namespace hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + TxtBxName.Text);
+            MessageBox.Show("Hello " + TxtBxName.Text + " and " + TxtBxName1.Text);
         }
 
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
